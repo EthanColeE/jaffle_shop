@@ -5,6 +5,8 @@ models:
       - dbt_utils.expression_is_true:
           arguments:
             expression: "lifetime_spend_pretax + lifetime_tax_paid = lifetime_spend"
+    meta:
+      owner: ECE
     columns:
       - name: customer_id
         description: The unique key of the orders mart.

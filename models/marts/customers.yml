@@ -9,7 +9,7 @@ models:
       owner: ECE
     columns:
       - name: customer_id
-        description: The unique key of the orders mart.
+        description: The unique key of the orders mart. This is EC adding a description ;)
         data_tests:
           - not_null
           - unique

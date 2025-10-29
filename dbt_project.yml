@@ -29,6 +29,9 @@ seeds:
       +enabled: "{{ var('load_source_data', false) }}"
 
 models:
+  +persist_docs:
+    relation: true
+    columns: true
   jaffle_shop:
     staging:
       +materialized: view
